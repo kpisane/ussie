@@ -1,0 +1,89 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.2.2
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "ussie" in publications use:'
+type: software
+license: MIT
+title: 'ussie: Working with European Football Data'
+version: 0.0.0.9000
+abstract: This is a package that lets you play with European football data. It is
+  for a workshop and more or less an identical copy of the Building Tidy Tools workshop
+  demo package from rstudio::conf2022. This copy is incredibly boring and there is
+  no reason you would use it. If you want to follow the workshop, do that and ignore
+  my personal repo.
+authors:
+- family-names: Pisane
+  given-names: Kelly
+  email: kellypisane@outlook.com
+preferred-citation:
+  type: manual
+  title: 'ussie: Working with European Football Data'
+  authors:
+  - family-names: Pisane
+    given-names: Kelly
+    email: kellypisane@outlook.com
+  version: 0.0.0.9000
+  abstract: This is a package that lets you play with European football data. It is
+    for a workshop and more or less an identical copy of the Building Tidy Tools workshop
+    demo package from rstudio::conf2022. This copy is incredibly boring and there
+    is no reason you would use it. If you want to follow the workshop, do that and
+    ignore my personal repo.
+  repository-code: https://github.com/kpisane/ussie
+  url: https://github.com/kpisane/ussie
+  contact:
+  - family-names: Pisane
+    given-names: Kelly
+    email: kellypisane@outlook.com
+  license: MIT
+  year: '2022'
+repository-code: https://github.com/kpisane/ussie
+url: https://github.com/kpisane/ussie
+contact:
+- family-names: Pisane
+  given-names: Kelly
+  email: kellypisane@outlook.com
+references:
+- type: software
+  title: dplyr
+  abstract: 'dplyr: A Grammar of Data Manipulation'
+  notes: Imports
+  authors:
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@rstudio.com
+    orcid: https://orcid.org/0000-0003-4757-117X
+  - family-names: François
+    given-names: Romain
+    orcid: https://orcid.org/0000-0002-2444-4226
+  - family-names: Henry
+    given-names: Lionel
+  - family-names: Müller
+    given-names: Kirill
+    orcid: https://orcid.org/0000-0002-1416-3412
+  year: '2022'
+  url: https://CRAN.R-project.org/package=dplyr
+- type: software
+  title: tibble
+  abstract: 'tibble: Simple Data Frames'
+  notes: Imports
+  authors:
+  - family-names: Müller
+    given-names: Kirill
+    email: krlmlr+r@mailbox.org
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@rstudio.com
+  year: '2022'
+  url: https://CRAN.R-project.org/package=tibble
+- type: software
+  title: engsoccerdata
+  abstract: 'engsoccerdata: English and European Soccer Results 1871-2016'
+  notes: Suggests
+  authors:
+  - family-names: Curley
+    given-names: James
+  year: '2022'
+  url: https://CRAN.R-project.org/package=engsoccerdata
