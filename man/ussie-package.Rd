@@ -12,6 +12,7 @@ This is a package that lets you play with European football data. It is for a wo
 Useful links:
 \itemize{
   \item \url{https://github.com/kpisane/ussie}
+  \item \url{https://kpisane.github.io/ussie/}
   \item Report bugs at \url{https://github.com/kpisane/ussie/issues}
 }
 
