@@ -26,5 +26,12 @@ matches_italy <- uss_make_matches(engsoccerdata::italy, "Italy")
 glimpse(matches_italy)
 ```
  
+```{r r_get_matches}
+italy <- uss_get_matches('italy')
+glimpse(italy)
+```
+
+
 Important and sad note: Netherlands data is stored as country = 'holland'.  This
 is not nice, but this is a toy package and I will see if I can fix that later.
+

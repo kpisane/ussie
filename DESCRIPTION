@@ -17,10 +17,10 @@ URL: https://github.com/kpisane/ussie,
 BugReports: https://github.com/kpisane/ussie/issues
 Imports: 
     dplyr,
+    engsoccerdata,
     rlang,
     tibble
 Suggests: 
-    engsoccerdata,
     knitr,
     rmarkdown,
     testthat (>= 3.0.0)
