@@ -31,7 +31,15 @@ italy <- uss_get_matches('italy')
 glimpse(italy)
 ```
 
+We can add filtering conditions:
+```{r uss_get_matches_filter}
+uss_get_matches('england', season == 1966) |> 
+    glimpse()
+```
+
+
 
 Important and sad note: Netherlands data is stored as country = 'holland'.  This
 is not nice, but this is a toy package and I will see if I can fix that later.
+
 

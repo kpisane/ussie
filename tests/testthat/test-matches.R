@@ -11,3 +11,5 @@ test_that("uss_make_matches works", {
 
   expect_snapshot(dplyr::glimpse(italy))
 })
+
+# I love this unit testing stuff, it is super fun
