@@ -16,6 +16,7 @@ URL: https://github.com/kpisane/ussie,
     https://kpisane.github.io/ussie/
 BugReports: https://github.com/kpisane/ussie/issues
 Imports: 
+    cli,
     dplyr,
     engsoccerdata,
     rlang,
