@@ -3,17 +3,14 @@ Title: Working with European Football Data
 Version: 0.0.0.9000
 Authors@R: 
     person("Kelly", "Pisane", , "kellypisane@outlook.com", role = c("aut", "cre"))
-Description: This is a package that lets you play with European football data.  
-    It is for a workshop and more or less an identical copy of the Building Tidy
-    Tools workshop demo package from rstudio::conf2022.  This copy is incredibly 
-    boring and there is no reason you would use it.  If you want to follow the 
-    workshop, do that and ignore my personal repo.
+Description: This is a package that lets you play with European football
+    data.  It is for a workshop and more or less an identical copy of the
+    Building Tidy Tools workshop demo package from rstudio::conf2022.
+    This copy is incredibly boring and there is no reason you would use
+    it.  If you want to follow the workshop, do that and ignore my
+    personal repo.
 License: MIT + file LICENSE
-Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.1
-URL: https://github.com/kpisane/ussie,
-    https://kpisane.github.io/ussie/
+URL: https://github.com/kpisane/ussie, https://kpisane.github.io/ussie/
 BugReports: https://github.com/kpisane/ussie/issues
 Imports: 
     cli,
@@ -23,8 +20,14 @@ Imports:
     tibble,
     withr
 Suggests: 
+    conflicted,
     knitr,
     rmarkdown,
+    roxygen2,
     testthat (>= 3.0.0)
+VignetteBuilder: 
+    knitr
 Config/testthat/edition: 3
-VignetteBuilder: knitr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
